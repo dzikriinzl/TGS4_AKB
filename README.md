@@ -46,38 +46,71 @@ Pastikan Anda memiliki Node.js dan Expo CLI (atau menggunakan `npx expo`) terins
 
 ## 📁 Struktur Proyek
 ├── .expo/
+
 ├── .vscode/
+
 ├── app/
+
 │   ├── _layout.tsx           # Layout aplikasi utama & pemuatan font
+
 │   └── index.tsx             # Halaman utama aplikasi
+
 ├── assets/
+
 │   └── fonts/
+
 │       ├── static/           # Font statis (.ttf)
+
 │       │   ├── Lora-Bold.ttf
+
 │       │   ├── MerriweatherSans-SemiBoldItalic.ttf
+
 │       │   ├── Oswald-Regular.ttf
+
 │       │   ├── PlayfairDisplay-Regular.ttf
+
 │       │   └── Roboto-Black.ttf
+
 │       └── variable/         # Font variabel (.ttf)
+
 │           ├── Inter-Italic-VariableFont_opsz,wght.ttf
+
 │           ├── Manrope-Bold.ttf
+
 │           ├── Outfit-Black.ttf
+
 │           ├── RedHatMono.ttf
+
 │           └── Urbanist.ttf
+
 ├── components/
+
 │   ├── NamaItem.tsx          # Komponen untuk menampilkan satu nama & font
+
 │   └── NamaList.tsx          # Komponen untuk menampilkan daftar nama
+
 ├── constants/
+
 │   ├── daftarFont.ts         # Daftar nama kunci font yang digunakan
+
 │   └── daftarNama.ts         # Daftar NIM dan Nama mahasiswa
+
 ├── node_modules/
+
 ├── .gitignore
+
 ├── app.json
+
 ├── eslint.config.js
+
 ├── expo-env.d.ts
+
 ├── package-lock.json
+
 ├── package.json
+
 ├── README.md                 # File ini
+
 └── tsconfig.json
 
 ## ⚙️ Detail Implementasi Tugas
